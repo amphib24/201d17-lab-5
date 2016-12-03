@@ -30,10 +30,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-var multAnswer = a * b;
-var multString = 'The product of ' + a + ' and ' + b + ' is ' + multAnswer + '.';
-var multArray = [multAnswer, multString];
-return multArray;
+  var multAnswer = a * b;
+  var multString = 'The product of ' + a + ' and ' + b + ' is ' + multAnswer + '.';
+  var multArray = [multAnswer, multString];
+  return multArray;
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -69,7 +69,7 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
- testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -87,16 +87,16 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-  var holyShit=[];
- holyShit[0] = sum(sum(testArray[0],testArray[1])[0],testArray[2])[0];
- holyShit[1] = testArray[0] + ',' + testArray[1] + "," + testArray[2] + ' was passed in as an array of numbers, and ' + holyShit[0] + ' is their sum.';
- console.log(holyShit[1]);
- return holyShit;
+  var holyShit = [];
+  holyShit[0] = sum(sum(testArray[0],testArray[1])[0],testArray[2])[0];
+  holyShit[1] = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + holyShit[0] + ' is their sum.';
+  console.log(holyShit[1]);
+  return holyShit;
 }
 
 // Here is the test for sumArray(); uncomment it to run it
 
- testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -112,10 +112,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-
+  var holyShit = [];
+  holyShit[0] = multiply(multiply(testArray[0],testArray[1])[0],testArray[2])[0];
+  holyShit[1] = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + holyShit[0] + '.';
+  return holyShit;
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray([2,3,4]);
+testMultiplyArray([2,3,4]);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
