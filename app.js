@@ -87,11 +87,11 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-  var holyShit = [];
-  holyShit[0] = sum(sum(testArray[0],testArray[1])[0],testArray[2])[0];
-  holyShit[1] = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + holyShit[0] + ' is their sum.';
-  console.log(holyShit[1]);
-  return holyShit;
+  var dingDong = [];
+  dingDong[0] = sum(sum(testArray[0],testArray[1])[0],testArray[2])[0];
+  dingDong[1] = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + dingDong[0] + ' is their sum.';
+  console.log(dingDong[1]);
+  return dingDong;
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -112,10 +112,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-  var holyShit = [];
-  holyShit[0] = multiply(multiply(testArray[0],testArray[1])[0],testArray[2])[0];
-  holyShit[1] = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + holyShit[0] + '.';
-  return holyShit;
+  var mooCow = [];
+  mooCow[0] = multiply(multiply(testArray[0],testArray[1])[0],testArray[2])[0];
+  mooCow[1] = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + mooCow[0] + '.';
+  return mooCow;
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
